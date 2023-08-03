@@ -1,0 +1,119 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="chardet" />
+            <item index="1" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="2" class="java.lang.String" itemvalue="reportlab" />
+            <item index="3" class="java.lang.String" itemvalue="numpy" />
+            <item index="4" class="java.lang.String" itemvalue="twilio" />
+            <item index="5" class="java.lang.String" itemvalue="django-encrypted-fields" />
+            <item index="6" class="java.lang.String" itemvalue="Pillow" />
+            <item index="7" class="java.lang.String" itemvalue="plivo" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E303" />
+          <option value="E301" />
+          <option value="W292" />
+          <option value="E302" />
+          <option value="W191" />
+          <option value="E305" />
+          <option value="E713" />
+          <option value="E122" />
+          <option value="E722" />
+          <option value="E402" />
+          <option value="E128" />
+          <option value="E125" />
+          <option value="E127" />
+          <option value="E131" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="type" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="thecops.api.v2.publish.models.PublishTO.objects" />
+          <option value="thecops.api.v2.publish.models.PublishTOHistory.objects" />
+          <option value="thecops.api.v2.publish.models.Publish.objects" />
+          <option value="thecops.api.v2.request.models.Request.objects" />
+          <option value="thecops.api.models.Tanent.objects" />
+          <option value="thecops.users.models.PasswordHistory.objects" />
+          <option value="datetime.datetime.datetime" />
+          <option value="thecops.users.models.CoordinatorProfile.objects" />
+          <option value="thecops.api.models.tanent.short_name" />
+          <option value="Exception.message" />
+          <option value="thecops.api.models.OfficerProfile.objects" />
+          <option value="thecops.api.models.Pin.objects" />
+          <option value="thecops.api.v2.request.models.Request.v2_jobs" />
+          <option value="thecops.api.models.AgencyAttributeConfig.objects" />
+          <option value="thecops.api.models.Agency.objects" />
+          <option value="thecops.api.v2.netsuite.models.NetsuiteOfficerPayment.objects" />
+          <option value="odm_users.models.DeviceDetail.DoesNotExist" />
+          <option value="odm_users.models.DeviceDetail.objects" />
+          <option value="thecops.api.models.OfficerSchedule.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.entities" />
+          <option value="odm_users.models.UserEntityDetails.id" />
+          <option value="django.db.models.fields.related.ForeignKey.save" />
+          <option value="odm_users.models.CalendarCount.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.company_name" />
+          <option value="thecops.api.v2.request.models.Request.for_agency_id" />
+          <option value="thecops.api.models.ClientProfile.objects" />
+          <option value="thecops.api.models.Address.objects" />
+          <option value="thecops.api.v2.request.models.TemplateRequest.objects" />
+          <option value="thecops.api.v2.request.models.TemplateRequest.annotate" />
+          <option value="thecops.api.v2.turn.models.TurnReport.objects" />
+          <option value="thecops.api.v2.publish.models.PublishHistory.objects" />
+          <option value="thecops.api.models.AgencyEmailConfiguration.objects" />
+          <option value="thecops.api.v2.turn.models.LifeCycleHistory.objects" />
+          <option value="thecops.api.v2.publish.models.PublishBidSequence.objects" />
+          <option value="thecops.api.v2.request.models.RequestAttachment.objects" />
+          <option value="thecops.api.v2.publish.models.Publish.RUNNING" />
+          <option value="thecops.api.models.OfficerProfileAttribute.objects" />
+          <option value="bool.save" />
+          <option value="thecops.api.v2.publish.models.Publish.SUCCESS" />
+          <option value="thecops.api.v2.job.models.JobHistory.objects" />
+          <option value="thecops.api.models.OfficerNotificationProfile.objects" />
+          <option value="thecops.api.v2.turn.models.TurnNSStatus.objects" />
+          <option value="thecops.api.v2.turn.models.BidReport.objects" />
+          <option value="thecops.api.v2.turn.models.BidPreference.objects" />
+          <option value="thecops.api.v2.turn.models.TurnHistory.objects" />
+          <option value="thecops.api.models.AgencyAttributeValue.objects" />
+          <option value="thecops.api.models.OfficerNotificationConfig.objects" />
+          <option value="str.save" />
+          <option value="str.get" />
+          <option value="int.__setitem__" />
+          <option value="urllib.parse" />
+          <option value="django.db.models.fields.related.ForeignKey.user" />
+          <option value="bool.is_agency" />
+          <option value="bool.is_offduty" />
+          <option value="thecops.users.models.OfficerOptOutHistory.objects" />
+          <option value="thecops.api.models.Pin.DoesNotExist" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
